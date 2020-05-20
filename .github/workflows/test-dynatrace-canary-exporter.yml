@@ -7,9 +7,7 @@ on:
       - 'third-party-synthetic/aws-cloudwatch/**'
 
 jobs:
-  build:
-    name: Test Dynatrace Canary Exporter
-
+  test:
     runs-on: ubuntu-latest
 
     defaults:
